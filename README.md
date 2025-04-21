@@ -21,7 +21,8 @@ This project is focused on the use of **Java Generics**, **bounded type paramete
 - ✔ Java 17+  
 - ✔ IntelliJ IDEA / Eclipse  
 - ✔ JDK & JRE  
-- ✔ Git & GitHub for version control  
+- ✔ Git & GitHub for version control
+- ✔ Maven
 
 ---
 
