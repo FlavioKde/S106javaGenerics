@@ -15,13 +15,7 @@ public class Person {
         return name;
     }
 
-    public String getLastName() {
-        return lastName;
-    }
 
-    public int getAge() {
-        return age;
-    }
 
     @Override
     public String toString() {

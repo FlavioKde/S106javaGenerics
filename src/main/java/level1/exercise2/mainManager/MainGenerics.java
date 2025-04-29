@@ -5,7 +5,7 @@ import level1.exercise2.dataClass.Person;
 
 public class MainGenerics {
     public static void main(String[] args) {
-        Person person = new Person("Jorgito","Vidal",35);
+        Person person = new Person("Jorgito","Alfajor",35);
         GenericsMethods genericsMethods = new GenericsMethods();
 
         genericsMethods.generic(person,"Hey",54);

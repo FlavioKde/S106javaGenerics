@@ -18,9 +18,6 @@ public class InitializerClass {
         smartphoneList.add(new Smartphone(98765432,"Xiaomi", "Mi 11", "Gray"));
     }
 
-    public List<Smartphone> getSmartphoneList() {
-        return smartphoneList;
-    }
     public void printInitializer(){
 
         for (Smartphone smartphone: smartphoneList){

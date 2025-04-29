@@ -8,6 +8,7 @@ public class MainNoGenericsMethods {
 
         InstanceManager instanceManager = new InstanceManager();
         instanceManager.initializeInstance();
+        instanceManager.printNoGenericsMethos();
         System.out.println(instanceManager);
 
     }

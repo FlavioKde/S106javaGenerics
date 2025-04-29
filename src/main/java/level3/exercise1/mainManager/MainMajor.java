@@ -6,15 +6,15 @@ import level3.exercise1.logic.InitializerClass;
 
 public class MainMajor {
     public static void main(String[] args) {
+
         InitializerClass initializerClass = new InitializerClass();
         Generics generics = new Generics();
 
 
         initializerClass.loadClass();
+        initializerClass.smartphoneMethodCall();
+        initializerClass.smartphoneMethodPhotos();
+        initializerClass.printInitializer();
 
-        for (Smartphone smartphone: initializerClass.getSmartphoneList()){
-            generics.genericMethodPhone(smartphone);
-            generics.genericMethodSmartphone(smartphone);
-        }
     }
 }

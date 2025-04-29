@@ -20,14 +20,13 @@ public class InstanceManager {
         noGenericMethodsList.add(new NoGenericMethods("New York","Samid","Peter"));
         noGenericMethodsList.add(new NoGenericMethods("Gomez","Istanbul","Maria"));
     }
-
-    public List<NoGenericMethods> getNoGenericMethodsList() {
-        return noGenericMethodsList;
+    public void printNoGenericsMethos(){
+        System.out.println("return methods in any order \n" +"City: "+ noGenericMethods.getCity() + "Name: " + noGenericMethods.getName() +"LastName: " +noGenericMethods.getLastName());
+        System.out.println("return methods in any order \n" +"Name: "+ noGenericMethods.getName() + "LastName: " + noGenericMethods.getLastName() +"City: " +noGenericMethods.getCity());
+        System.out.println("return methods in any order \n" +"LastName: "+ noGenericMethods.getLastName() + "City: " + noGenericMethods.getCity() +"Name: " +noGenericMethods.getName());
     }
 
-    public NoGenericMethods getNoGenericMethods() {
-        return noGenericMethods;
-    }
+
 
     @Override
     public String toString() {

@@ -15,21 +15,7 @@ public class Smartphone implements Phone {
         this.color = color;
     }
 
-    public int getNumber() {
-        return number;
-    }
 
-    public String getBrand() {
-        return brand;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public String getColor() {
-        return color;
-    }
     public String getDescription() {
         return brand + " " + model + " in " + color + " color";
     }
